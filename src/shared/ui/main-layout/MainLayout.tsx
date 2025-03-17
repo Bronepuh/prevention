@@ -160,7 +160,7 @@ const MainLayout: React.FC = () => {
               style={{
                 width: "100%",
               }}
-              src="/logo_prev_1.png"
+              src="./logo_prev_1.png"
             />
           </Flex>
           <Menu
