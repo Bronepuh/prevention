@@ -128,7 +128,7 @@ const MainLayout: React.FC = () => {
           style={{ display: "flex", alignItems: "center", padding: "0 16px" }}
         >
           <Flex className={styles.demoLogoVertical}>
-            <Image src="/logo_prev_1.png" style={{ width: 40 }} />
+            <Image src="./logo_prev_1.png" style={{ width: 40 }} />
           </Flex>
           <div style={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
             <Dropdown

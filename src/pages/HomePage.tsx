@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
         основании договора цессии.
       </Paragraph>
 
-      <Image src="/deal.jpg" width={"100%"} className={styles.dealImg} />
+      <Image src="./deal.jpg" width={"100%"} className={styles.dealImg} />
 
       {/* Условия приобретения прав требования */}
       <Title level={3}>Условия приобретения прав требования</Title>
