@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    /* Алиасы */
+    "baseUrl": "./", // Указываем корень проекта
+    "paths": {
+      "@app/*": ["./src/app/*"], // Алиас @app для src/app
+      "@assets/*": ["./src/assets/*"], // Алиас @app для src/app
+      "@pages/*": ["./src/pages/*"], // Алиас @pages для src/pages
+      "@shared/*": ["./src/shared/*"] // Алиас @pages для src/shared
+    }
+  },
+  "include": ["src"]
+}
